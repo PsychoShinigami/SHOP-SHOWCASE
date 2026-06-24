@@ -1,0 +1,16 @@
+body{
+    margin : 0;
+    background-color : rgb(246, 245, 215);
+}
+
+.main-container{
+    display : flex;
+    flex-direction : column;
+    width : 100vw;
+    height : 100vh;
+    background-color : rgb(246, 245, 215);
+}
+
+@media (min-width: 768px) {
+
+}
