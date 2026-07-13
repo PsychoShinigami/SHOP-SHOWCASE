@@ -16,7 +16,7 @@
             </div>
             <div class="products-txt">Our Featured Products</div>
             <div class="products-grid">
-                <div class="product-card">
+                <div class="product-card" data-product="cashews">
                     <div class="product-img-box">
                         <img src="/images/cashew-card-image.png" class="cashew-img" alt="cashew-img">
                     </div>
@@ -25,7 +25,7 @@
                         <h2 class="product-desc">From different original brands.<br>Click to check them all.</h2>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-product="almonds">
                     <div class="product-img-box">
                         <img src="/images/almond-card-image.png" class="cashew-img" alt="cashew-img">
                     </div>
@@ -34,7 +34,7 @@
                         <h2 class="product-desc">From different original brands.<br>Click to check them all.</h2>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-product="pistachios">
                     <div class="product-img-box">
                         <img src="/images/pistachios-card-image.png" class="cashew-img" alt="cashew-img">
                     </div>
@@ -43,7 +43,7 @@
                         <h2 class="product-desc">From different original brands.<br>Click to check them all.</h2>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-product="walnuts">
                     <div class="product-img-box">
                         <img src="/images/walnut-card-image.png" class="cashew-img" alt="cashew-img">
                     </div>
@@ -52,7 +52,7 @@
                         <h2 class="product-desc">From different original brands.<br>Click to check them all.</h2>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-product="dates">
                     <div class="product-img-box">
                         <img src="/images/dates-card-image.png" class="cashew-img" alt="cashew-img">
                     </div>
@@ -61,6 +61,11 @@
                         <h2 class="product-desc">From different original brands.<br>Click to check them all.</h2>
                     </div>
                 </div>
+            </div>
+            <div class="brands-container" style="display: none; width: 100%;">
+                <button id="back-btn" style="margin: 20px; padding: 10px 15px; background: rgb(79, 48, 0); color: white; border: none; border-radius: 5px;">⬅ Back to Products</button>
+                <div id="brand-title" class="products-txt"></div>
+                <div id="brands-grid"></div> 
             </div>
             <div class="address-box"></div> 
         </div>
